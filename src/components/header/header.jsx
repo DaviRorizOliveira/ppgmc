@@ -1,10 +1,6 @@
-// components/Header.tsx
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from "./header.module.css"
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
     return (
@@ -22,7 +18,7 @@ export default function Header() {
                         <h1 className="h1 header-title center-align">Programa de Pós-Graduação em Modelagem Computacional</h1>
                     </div>
                     <div className="col s6 m6 l2">
-                        <FontAwesomeIcon icon={faPhone} className="material-icons white-text tiny icon-and-title"/>
+                    <i className="material-icons white-text tiny icon-and-title">contact_phone</i>
                         <Link href="tel:733680-5297" passHref legacyBehavior>
                             <a className="center-align slink" title="Contato" alt="contato"> (73) 3680-5297</a>
                         </Link>

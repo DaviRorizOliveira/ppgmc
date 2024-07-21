@@ -5,11 +5,6 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import styles from "./page.module.css";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook } from '@fortawesome/free-solid-svg-icons';
-import { faUsers } from '@fortawesome/free-solid-svg-icons';
-import { faBookmark } from '@fortawesome/free-solid-svg-icons';
-
 export default function Home() {
     const [numbers, setNumbers] = useState<number[]>([86, 16, 13]);
     const [isInView, setIsInView] = useState(false);
@@ -82,9 +77,7 @@ export default function Home() {
                         <div className="card">
                             <div className="card-content">
                                 <span className="card-title">Dissertações defendidas</span>
-                                <p className="icon-destaque">
-                                    <FontAwesomeIcon icon={faBook} className="large"/>
-                                </p>
+                                <p className={styles.iconDestaque}><i className="large material-icons">book</i></p>
                             </div>
                             <div className="card-action">
                                 <h3><b className="z-n">{numbers[0]}</b></h3>
@@ -95,9 +88,7 @@ export default function Home() {
                         <div className="card">
                             <div className="card-content">
                                 <span className="card-title">Docentes atuando</span>
-                                <p className="icon-destaque">
-                                    <FontAwesomeIcon icon={faUsers} className="large"/>
-                                </p>
+                                <p className={styles.iconDestaque}><i className="large material-icons">people</i></p>
                             </div>
                             <div className="card-action">
                                 <h3><b className="z-n">{numbers[1]}</b></h3>
@@ -108,9 +99,7 @@ export default function Home() {
                         <div className="card">
                             <div className="card-content">
                                 <span className="card-title">Projetos em execução</span>
-                                <p className="icon-destaque">
-                                    <FontAwesomeIcon icon={faBookmark} className="large"/>
-                                </p>
+                                <p className={styles.iconDestaque}><i className="large material-icons">bookmark</i></p>
                             </div>
                             <div className="card-action">
                                 <h3><b className="z-n">{numbers[2]}</b></h3>
