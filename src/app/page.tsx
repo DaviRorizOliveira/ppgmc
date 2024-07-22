@@ -120,9 +120,11 @@ export default function Home() {
                             <div className="card-content">
                                 <span className="card-title grey-text text-darken-4" style={{ fontSize: '20px' }}>Equipe Campeã do 3º Desafio Flex</span>
                                 <p>A Uesc é campeã do 3º Desafio Flex de Inovação em São Paulo</p>
-                                <p><Link href="https://www2.uesc.br/noticias/599/A-Uesc-e-campea-do-3o-Desafio-Flex-de-Inovacao-em-Sao-Paulo" passHref>
-                                    <i className="tiny material-icons">lightbulb_outline</i> Saiba Mais
-                                </Link></p>
+                                <p>
+                                    <Link href="https://www2.uesc.br/noticias/599/A-Uesc-e-campea-do-3o-Desafio-Flex-de-Inovacao-em-Sao-Paulo" passHref>
+                                        <i className="tiny material-icons">lightbulb_outline</i> Saiba Mais
+                                    </Link>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -134,9 +136,11 @@ export default function Home() {
                             <div className="card-content">
                                 <span className="card-title grey-text text-darken-4" style={{ fontSize: '20px' }}>Processo Seletivo Turma 2023.1</span>
                                 <p>Encontra-se aberto o processo seletivo para a turma 2023.1 do PPGMC, Edital UESC 134/2022...</p>
-                                <p><Link href="/processos-seletivos" passHref>
-                                    <i className="tiny material-icons">lightbulb_outline</i> Saiba Mais
-                                </Link></p>
+                                <p>
+                                    <Link href="/processos-seletivos" passHref>
+                                        <i className="tiny material-icons">lightbulb_outline</i> Saiba Mais
+                                    </Link>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -148,9 +152,11 @@ export default function Home() {
                             <div className="card-content">
                                 <span className="card-title grey-text text-darken-4" style={{ fontSize: '20px' }}>PPGMC-UESC Alcança Nota 4</span>
                                 <p>O PPGMC-UESC obtêm nota 4 na avaliação CAPES quadriênio 2017-2020...</p>
-                                <p><Link href="https://www2.uesc.br/noticias/581/Programas-de-pos-graduacao-da-Uesc-elevam-conceitos-na-avaliacao-da-Capes" passHref>
-                                    <i className="tiny material-icons">lightbulb_outline</i> Saiba Mais
-                                </Link></p>
+                                <p>
+                                    <Link href="https://www2.uesc.br/noticias/581/Programas-de-pos-graduacao-da-Uesc-elevam-conceitos-na-avaliacao-da-Capes" passHref>
+                                        <i className="tiny material-icons">lightbulb_outline</i> Saiba Mais
+                                    </Link>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -167,9 +173,11 @@ export default function Home() {
                                     <div className="card-content destaque-shadow">
                                         <span className="card-title grey-text text-darken-4" style={{ fontSize: '20px' }}>Projeto de Pesquisa no campo da neurobiologia</span>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non lorem mauris...</p>
-                                        <p><Link href="#">
-                                            <i className="tiny material-icons">layers</i> Tenho interesse
-                                        </Link></p>
+                                        <p>
+                                            <Link href="#">
+                                                <i className="tiny material-icons">layers</i> Tenho interesse
+                                            </Link>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -188,9 +196,11 @@ export default function Home() {
                                     <div className="card-content destaque-shadow">
                                         <span className="card-title grey-text text-darken-4" style={{ fontSize: '20px' }}>Nova eleição para chefe dos laboratórios</span>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio urna, suscipit quis commodo id...</p>
-                                        <p><Link href="#">
-                                            <i className="tiny material-icons">visibility</i> Ler tudo
-                                        </Link></p>
+                                        <p>
+                                            <Link href="#">
+                                                <i className="tiny material-icons">visibility</i> Ler tudo
+                                            </Link>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
