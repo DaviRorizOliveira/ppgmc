@@ -26,7 +26,7 @@ export default function RootLayout({
         <html lang="en">
             <Head>
                 <meta charSet="UTF-8" />
-                <link rel="icon" href="/storage/header-imgs/ppgmc_logo.ico" />
+                <link rel="icon" href="/images/header-imgs/ppgmc_logo.ico" />
                 <title>PPGMC / UESC</title>
             </Head>
             <body className={inter.className}>
